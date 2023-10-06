@@ -21,5 +21,5 @@ public struct SnackBarStyle {
 	public var actionTextColorAlpha: CGFloat = 0.5
 	public var actionFont: UIFont = UIFont.systemFont(ofSize: UIFontMetrics.default.scaledValue(for: 17))
 	public var actionTextColor: UIColor = .red
-    public var textAlignment: NSTextAlignment
+    public var textAlignment: NSTextAlignment = .center
 }
